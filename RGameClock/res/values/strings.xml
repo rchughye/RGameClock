@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">R Game Clock</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_time">05:00</string>
+
+</resources>

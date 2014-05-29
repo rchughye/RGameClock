@@ -1,0 +1,37 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference
+        android:defaultValue="300"
+        android:inputType="number"
+        android:key="top_player_time"
+        android:title="@string/pref_title_top_time"
+        android:summary="@string/pref_description_top_time"
+        android:selectAllOnFocus="true"
+        />
+    
+    <EditTextPreference
+        android:defaultValue="300"
+        android:inputType="number"
+        android:key="bottom_player_time"
+        android:title="@string/pref_title_bottom_time"
+        android:summary="@string/pref_description_bottom_time"
+        android:selectAllOnFocus="true"
+        />
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_control_list_titles"
+        android:entryValues="@array/pref_control_list_values"
+        android:key="time_control_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_time_control" />       
+    <EditTextPreference
+        android:defaultValue="0"
+        android:inputType="number"
+        android:key="time_increment"
+        android:title="@string/pref_title_time_increment"
+        android:summary="@string/pref_description_time_increment"
+        android:selectAllOnFocus="true"
+        />
+    
+
+</PreferenceScreen>
